@@ -1,8 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Aplication Images
 
-## Available Scripts
+## Main View
+![](/images/main.png)
 
-In the project directory, you can run:
+## Login View
+![](/images/login.png)
+
+## Users View
+![](/images/user_view.png)
+
+## Films & Series View
+![](/images/films.png)
 
 ### `npm start`
 

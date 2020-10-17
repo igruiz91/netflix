@@ -19,7 +19,11 @@ Player.Video = function PLayerVideo({ src, ...restProps }) {
 
   return showPlayer
     ? ReactDOM.createPortal(
-        <Overlay onClick={() => setShowPlayer(false)} {...restProps}>
+        <Overlay
+          onClick={() => setShowPlayer(false)}
+          {...restProps}
+          data-test-id='player'
+        >
           <Inner>
             <video id='netflix-player' controls>
               <source src={src} type='video/mp4' />
@@ -41,7 +45,5 @@ Player.Button = function PLayerButton({ children, ...restProps }) {
     </Button>
   );
 };
-
-
 
 export default Player;
